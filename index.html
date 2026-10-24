@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Milkshakes cremosos para deixar seu dia mais gostoso. Conheça o cardápio da Delícia Express e simule seu pedido.">
+  <meta name="theme-color" content="#fff8f3">
+  <title>Delícia Express | Milkshakes artesanais</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <header class="hero" id="inicio">
+    <nav class="nav container" aria-label="Navegação principal">
+      <a class="logo" href="#inicio" aria-label="Delícia Express, início"><span class="logo-mark">D</span><span>delícia<span class="logo-light">express</span></span></a>
+      <div class="nav-links">
+        <a href="#cardapio">Cardápio</a>
+        <a href="#como-funciona">Como funciona</a>
+      </div>
+      <a class="nav-cta" href="#cardapio">Escolher sabor <span aria-hidden="true">↗</span></a>
+    </nav>
+
+    <div class="hero-grid container">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="eyebrow-dot"></span> UM CARINHO EM FORMA DE MILKSHAKE</p>
+        <h1>Seu dia merece<br><span>algo delicioso.</span></h1>
+        <p class="hero-description">Milkshakes cremosos, combinações irresistíveis e aquele momento doce que faz toda a diferença.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#cardapio">Explorar cardápio <span aria-hidden="true">↓</span></a>
+          <span class="hero-note"><span class="note-star">★</span> Feito para adoçar seu dia</span>
+        </div>
+        <div class="hero-stats" aria-label="Destaques da loja">
+          <div><strong>3</strong><span>sabores especiais</span></div>
+          <div class="stat-divider"></div>
+          <div><strong>10%</strong><span>de desconto em pedidos a partir de R$ 50</span></div>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-photo-frame">
+          <img src="https://images.unsplash.com/photo-1684151093347-2304cda70839?auto=format&fit=crop&w=1200&q=85" alt="Milkshake de chocolate com biscoito" fetchpriority="high">
+        </div>
+        <div class="floating-card"><span class="floating-icon">✦</span><span><strong>Uma pausa feliz</strong><small>Escolha seu favorito</small></span></div>
+        <span class="hero-sparkle sparkle-one" aria-hidden="true">✳</span>
+        <span class="hero-sparkle sparkle-two" aria-hidden="true">✦</span>
+      </div>
+    </div>
+    <div class="hero-bottom-line" aria-hidden="true"></div>
+  </header>
+
+  <main>
+    <section class="menu-section container" id="cardapio">
+      <div class="section-topline"><span class="section-label">NOSSO CARDÁPIO</span><span class="section-small">Preparado para conquistar seu paladar</span></div>
+      <div class="section-heading">
+        <div><h2>Um sabor para cada vontade.</h2><p>Escolha seu milkshake favorito e monte seu pedido.</p></div>
+        <span class="menu-count">03 <span>opções especiais</span></span>
+      </div>
+
+      <div class="product-grid">
+        <article class="product-card">
+          <div class="product-image image-chocolate">
+            <img src="https://images.unsplash.com/photo-1684151093347-2304cda70839?auto=format&fit=crop&w=900&q=85" alt="Milkshake de chocolate cremoso com biscoito" loading="lazy">
+            <span class="product-badge">Mais pedido</span>
+          </div>
+          <div class="product-content">
+            <div class="product-meta"><span>01 / CLÁSSICO</span><span class="rating">★ 5.0</span></div>
+            <h3>Choco Crunch</h3>
+            <p>Milkshake de chocolate com textura cremosa e toque de biscoito.</p>
+            <div class="product-footer"><strong>R$ 25,00</strong><span class="size-label">400 ml</span></div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image image-strawberry">
+            <img src="https://images.unsplash.com/photo-1686638745403-d21193f16b2f?auto=format&fit=crop&w=900&q=85" alt="Milkshake rosa de morango com cobertura cremosa" loading="lazy">
+            <span class="product-badge badge-pink">Favorito</span>
+          </div>
+          <div class="product-content">
+            <div class="product-meta"><span>02 / FRUTADO</span><span class="rating">★ 4.9</span></div>
+            <h3>Morango Dream</h3>
+            <p>Morango e cremosidade em uma combinação leve e irresistível.</p>
+            <div class="product-footer"><strong>R$ 22,00</strong><span class="size-label">400 ml</span></div>
+          </div>
+        </article>
+
+        <article class="product-card">
+          <div class="product-image image-vanilla">
+            <img src="https://images.unsplash.com/photo-1734747643067-6d4e0f705a00?auto=format&fit=crop&w=900&q=85" alt="Milkshake de baunilha servido em copo alto" loading="lazy">
+            <span class="product-badge badge-green">Suave</span>
+          </div>
+          <div class="product-content">
+            <div class="product-meta"><span>03 / DELICADO</span><span class="rating">★ 4.8</span></div>
+            <h3>Vanilla Cloud</h3>
+            <p>O sabor clássico da baunilha, perfeito para uma pausa doce.</p>
+            <div class="product-footer"><strong>R$ 20,00</strong><span class="size-label">400 ml</span></div>
+          </div>
+        </article>
+      </div>
+      <p class="price-note">Os produtos e preços são fictícios e foram criados para fins acadêmicos.</p>
+    </section>
+
+    <section class="promo-section">
+      <div class="promo-inner container">
+        <div class="promo-symbol" aria-hidden="true">%</div>
+        <div class="promo-copy"><span class="section-label">UM DOCE EXTRA</span><h2>Seu pedido pode valer mais.</h2><p>Em compras a partir de R$ 50,00, você ganha <strong>10% de desconto</strong> na simulação.</p></div>
+        <a class="button button-dark" href="#simulador">Simular meu pedido <span aria-hidden="true">→</span></a>
+      </div>
+    </section>
+
+    <section class="simulator-section container" id="simulador">
+      <div class="simulator-intro">
+        <span class="section-label">RÁPIDO E SIMPLES</span>
+        <h2>Vamos montar seu pedido?</h2>
+        <p>O simulador vai perguntar quantas unidades você quer de cada sabor e calcular o valor final.</p>
+      </div>
+      <div class="simulator-box">
+        <div class="simulator-box-icon" aria-hidden="true">＋</div>
+        <div class="simulator-box-copy"><strong>Pronto para escolher?</strong><span>Tenha em mente as quantidades e confira o resumo no final.</span></div>
+        <button class="button button-primary simulate-button" type="button" id="simulate-button">Simular compra <span aria-hidden="true">↗</span></button>
+      </div>
+      <div class="steps" id="como-funciona">
+        <div class="step"><span class="step-number">01</span><div><strong>Escolha</strong><p>Confira os sabores e preços.</p></div></div>
+        <div class="step"><span class="step-number">02</span><div><strong>Informe</strong><p>Digite a quantidade de cada milkshake.</p></div></div>
+        <div class="step"><span class="step-number">03</span><div><strong>Confira</strong><p>Veja o subtotal, o desconto e o total.</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-main"><a class="logo footer-logo" href="#inicio"><span class="logo-mark">D</span><span>delícia<span class="logo-light">express</span></span></a><p>Um momento doce muda o dia.</p><a class="back-top" href="#inicio">Voltar ao topo ↑</a></div>
+    <div class="container footer-bottom"><span>Projeto acadêmico · Trilha de Desenvolvimento Mobile</span><span>Desenvolvido por <strong>Thaylanny Oliveira Santos</strong></span><span>© 2026 Delícia Express</span></div>
+  </footer>
+</body>
+</html>
