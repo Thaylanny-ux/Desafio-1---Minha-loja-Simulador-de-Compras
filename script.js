@@ -1,4 +1,4 @@
-// Os nomes e preços devem ser iguais aos apresentados no cardápio da página.
+
 const produtos = [
   { nome: "Choco Crunch", preco: 25.00 },
   { nome: "Morango Dream", preco: 22.00 },
