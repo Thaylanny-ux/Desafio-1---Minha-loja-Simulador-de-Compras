@@ -1,4 +1,4 @@
-# Delícia Express — Milkshakes
+Delícia Express — Milkshakes
 
 **Aluna:** Thaylanny Oliveira Santos  
 **Trilha:** Desenvolvimento Mobile  
