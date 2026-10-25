@@ -1,4 +1,4 @@
-# Créditos das fotografias
+Créditos das fotografias
 
 As imagens são fotografias disponibilizadas no Unsplash e são carregadas diretamente do site. É necessária conexão com a internet para visualizá-las.
 
