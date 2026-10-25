@@ -4,13 +4,13 @@
 **Trilha:** Desenvolvimento Mobile  
 **Desafio:** 1 — Minha Loja: Simulador de Compras
 
-## Sobre o projeto
+Sobre o projeto
 
 O site foi desenvolvido com HTML, CSS e JavaScript. O HTML organiza o conteúdo da página, o CSS define a aparência e adapta o layout a diferentes telas, e o JavaScript realiza a simulação da compra nao muito avançada mais simples, valida as quantidades informadas e calcula os valores. A proposta do projeto é praticar conceitos básicos de desenvolvimento web por meio de uma loja simples e fácil de usar.
 
 Durante o desenvolvimento, utilizei a **inteligência artificial como apoio em algumas etapas**, principalmente para receber sugestões, organizar ideias e revisar partes do projeto. As sugestões foram usadas como auxílio, e é importante que eu compreenda o funcionamento do código e confira o resultado final.
 
-## Cardápio
+ Cardápio
 
 | Produto | Descrição | Preço unitário |
 |---|---|---:|
